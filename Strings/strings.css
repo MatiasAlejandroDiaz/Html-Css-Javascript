@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lawngreen;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    background-color: lightcyan;
+}
+
+textarea {
+    resize: none;
+}
+
+.bloque-setStrings{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(1, 1 , 1, 0.5);
+    justify-content: center;
+}
+
+.bloque-setStrings div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque-setStrings button{
+    display: flex;
+    margin: 1rem;
+   justify-content: center;
+}
+
+#boton-asignar {
+    text-align: center;
+    height: 2rem;
+}
+
+.bloque-ejemplo{
+    position: relative;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    height: 12rem;
+    background-color: rgba(112, 112, 112, 0.5);
+    margin: 1rem 0;
+}
+
+.bloque-ejemplo h2{
+    text-align: left;
+    flex-shrink: 1;
+}
+
+.bloque-ejemplo h3 {
+    flex-shrink: 1;
+    text-align: center;
+}

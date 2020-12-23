@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidades Arrays</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <h1>Utilidades para un Array</h1> 
+    
+    <section>
+        <div class="bloque20">
+            <h2>Array 1:</h2><br>
+            <h3 id="visor-1" class="array-visor"></h3><br>
+            <div>
+                <button class="boton-generador">Generar Nuevo Array</button>
+                <label for="dup-checkbox1">Duplicados?</label>
+                <input id="dup-checkbox1" type="checkbox" title="¿Admite Elementos Duplicados en el Array?">    
+            </div>
+        </div>
+        
+        <div class="bloque20">
+            <h2>Array 2:</h2>
+            <h3 id="visor-2" class="array-visor"></h3>
+            <div>
+                <button class="boton-generador">Generar Nuevo Array</button>
+                <label for="dup-checkbox2">Duplicados?</label>
+                <input id="dup-checkbox2" type="checkbox" title="¿Admite Elementos Duplicados en el Array?">
+            </div>
+        </div>
+
+        <button id="boton-actualizar">Actualizar</button>
+    </section>
+    
+
+    <!--Eliminar Duplicados-->
+    <div class="bloque10">
+        <h2>Array Sin Duplicados:</h2>
+        <h3 id="mostrar-array-SD"></h3>
+    </div>
+    <!--OrdenarArray-->
+    <div class="bloque10">
+        <h2>Array Ordenado Sin Duplicados:</h2>
+        <h3 id="mostrar-array-SDO"></h3>
+    </div>
+    <div class="bloque10">
+        <h2>Array Ordenado Con Duplicados:</h2>
+        <h3 id="mostrar-array-DO"></h3>
+    </div>
+    <!--Con Dos Arrays-->
+    <div class="bloque10">
+        <h2>Unir Dos Arrays:</h2>
+        <h3 id="mostrar-array-Union"></h3>
+    </div>
+    <div class="bloque10">
+        <h2>Interseccion entre dos Arrays: </h2>
+        <h3 id="mostrar-array-Int"></h3>
+    </div>
+    <div class="bloque10">
+        <h2>Diferencia entre arrays:</h2>
+        <h3 id="mostrar-array-Dif"></h3>
+    </div>
+    <div class="bloque10">
+        <h2>Diferencia Simetrica entre dos arrays:</h2>
+        <h3 id="mostrar-array-DifSim"></h3>
+    </div>
+    <script src="./arrays.js"></script>
+</body>
+</html>

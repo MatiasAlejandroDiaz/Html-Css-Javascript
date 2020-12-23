@@ -1,0 +1,64 @@
+body {
+    background-color: yellowgreen;
+    margin: 0;
+}
+
+h1 {
+    margin:0;
+    text-align: center;
+    background-color: teal;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+}
+
+.bloque10 {
+    display: grid;
+    height: 10rem;
+    align-content: center;
+    margin: 0 1rem;
+    margin: 1px;
+    background-color: rgba(124, 124, 124, 0.5);
+}
+
+.bloque10 h2 ,
+.bloque10 h3 {
+    margin: 1rem;
+}
+
+.bloque20 {
+    display: grid;
+    height: 20rem;
+    margin: 1rem  auto;
+    align-content: center;
+    background-color: rgba(126, 125, 125, 0.5);
+}
+
+.bloque20 h2{
+    text-align: left;
+    margin-left: 5px;
+}
+.bloque20 h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.bloque20 div {
+    display: flex;
+    width: 25%;
+    margin: 0 auto;
+}
+.bloque20 div button {
+    margin-right: 2rem;
+}
+
+#boton-actualizar {
+    display: flex;
+    margin: 0 auto;
+    height: 3rem;
+    width: 6rem;
+    justify-content: center;
+    align-items: center;
+}

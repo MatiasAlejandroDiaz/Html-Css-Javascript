@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+    <link rel="stylesheet" href="./strings.css">
+</head>
+<body>
+    <div class="bloque-setStrings">
+        <h1>Utilidades Para Strings</h1>
+        <div>
+            <label for="string-input">String 1:</label>
+            <textarea name="String1" id="string-input1" cols="30" rows="5" autocapitalize="none" maxlength="50"></textarea>
+            <br>
+            <label for="string-input">String 2:</label>
+            <textarea name="String2" id="string-input2" cols="30" rows="5" autocapitalize="none" maxlength="50"></textarea>
+        </div>
+        <button id="boton-asignar">Actualizar Cambios</button>
+    </div>
+    
+    <div class="bloque-ejemplo">
+        <h2>Cantidad de apariciones de Cada Letra en el String 1, Diferenciando Mayusculas:</h2>
+        <h3 id="string-contar-lM"></h3>
+    </div>
+
+    <div class="bloque-ejemplo">
+        <h2>Cantidad de apariciones de Cada Letra en el String 1, No Diferenciando Mayusculas:</h2>
+        <h3 id="string-contar-lNM"></h3>
+    </div>
+
+    <div class="bloque-ejemplo">
+        <h2>Cantidad de palabras en el String 1:</h2>
+        <h3 id="string-contar-p"></h3>
+    </div>
+
+    <div class="bloque-ejemplo">
+        <h2>Mostrar Palabras en el String 1:</h2>
+        <h3 id="string-mostrar-p"></h3>
+    </div>
+
+    <div class="bloque-ejemplo">
+        <h2>Cantidad de apariciones del String 2 en el String 1:</h2>
+        <h3 id="string-contar-S"></h3>
+    </div>
+
+    <div class="bloque-ejemplo">
+        <h2>Eliminar del Primer String el Segundo:</h2>
+        <h3 id="string-eliminar-s"></h3>
+    </div>
+
+    <div class="bloque-ejemplo">
+        <h2>Poner en mayusculas la primera letra de cada palabra:</h2>
+        <h3 id="string-a-m"></h3>
+    </div>
+
+    <script src="./strings.js"></script>
+</body>
+</html>
